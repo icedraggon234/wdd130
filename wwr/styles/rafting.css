@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #0972AE;
+    --secondary-color: #239589;
+    --accent1-color: #B18187;
+    --accent2-color: #BBD1EA;
+
+    --heading-font: Lobster, serif;
+    --paragraph-font: "Open Sans", serif;
+
+    --nav-background-color: #BBD1EA;
+    --nav-link-color: #0972AE;
+    --nav-hover-link-color: #BBD1EA;
+    --nav-hover-background-color: #239589;
+}
+
+
+main {
+    max-width: 1100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+footer img {
+    max-width: 30px;
+}
+
+
+/* Class Selectors */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    color: var(--accent2-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 70%;
+    background-color: rgba(9, 114, 174, 0.50);
+    padding: 1rem;
+}
+
+.hero p {
+    color: var(--accent2-color);
+}
